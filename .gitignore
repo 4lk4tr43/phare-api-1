@@ -4,6 +4,13 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+# Ignore IDE folders
+.idea/
+.vscode/
+
+# Ignore VS history plugin folder
+.history/
+
 # Ignore bundler config.
 /.bundle
 
